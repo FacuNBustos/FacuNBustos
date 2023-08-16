@@ -20,9 +20,14 @@
 
 ## 🚀 Latest Projects
 
+<a>
 <img src="./README/public/wallet.png" width="30%" alt="Wallet"/>
-<img src="./README/public/copyshop.png" width="30%" alt="copyshop application"/>
-<img src="./README/public/wallet.png" width="30%"/>
-
+</a>
+<a>
+<img src="./README/public/copyshop.png" width="30%" alt="Wallet"/>
+</a>
+<a>
+<img src="./README/public/wallet.png" width="30%" alt="Wallet"/>
+</a>
 <hr>
 <p>Working progress ...</p>
