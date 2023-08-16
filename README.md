@@ -1,10 +1,6 @@
-#  Portfolio in progress
-<hr>
+# 👋 Ey, welcome!
 
-
-<p>
-    <img align="right" width="25%" src="https://media0.giphy.com/media/0TtX2qqpxp3pIafzio/giphy.gif?cid=ecf05e47cqmzku9536jcg7m8zoyfncgctxeae3mnemszgjbm&ep=v1_stickers_search&rid=giphy.gif&ct=s" />
-<p>
+<img align="right" width="25%" src="https://media0.giphy.com/media/0TtX2qqpxp3pIafzio/giphy.gif?cid=ecf05e47cqmzku9536jcg7m8zoyfncgctxeae3mnemszgjbm&ep=v1_stickers_search&rid=giphy.gif&ct=s" />
 
 <
 
@@ -15,6 +11,19 @@
 
 ?>
 
+<br>
+<hr/>
+
 <p align="center" width="100vw">
-    <img width="800px" src="./public/readme/estadisticas.png" />
+    <img width="800px" src="./README/public/estadisticas.png" />
 </p>
+
+## 🚀 Latest Projects
+<br/>
+
+<img src="./README/public/wallet.png" width="30%"/>
+<img src="./README/public/copyshop.png" width="30%"/>
+
+<br>
+<hr>
+<p>Working progress ...</p>
