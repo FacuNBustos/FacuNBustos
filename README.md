@@ -19,12 +19,10 @@
 </p>
 
 ## 🚀 Latest Projects
-<br/>
 
-<img src="./README/public/wallet.png" width="30%"/>
-<img src="./README/public/copyshop.png" width="30%"/>
+<img src="./README/public/wallet.png" width="30%" alt="Wallet"/>
+<img src="./README/public/copyshop.png" width="30%" alt="copyshop application"/>
 <img src="" width="30%"/>
 
-<br>
 <hr>
 <p>Working progress ...</p>
