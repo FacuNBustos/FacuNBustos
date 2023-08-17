@@ -18,7 +18,7 @@
     <img width="800px" src="./README/public/estadisticas.png" />
 </p>
 
-### 🚀 Latest Projects
+## 🚀 Latest Projects
 
 <p align="center">
 <img src="./README/public/wallet.png" width="30%" alt="Wallet"/>
