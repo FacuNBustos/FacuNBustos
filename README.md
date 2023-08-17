@@ -13,7 +13,7 @@
 
 <br>
 <hr/>
-
+    
 <p align="center" width="100vw">
     <img width="800px" src="./README/public/estadisticas.png" />
 </p>
@@ -27,8 +27,8 @@
     <a href="https://github.com/FacuNBustos/Exchange-TrabajoFinal-lab3" target="__blank">
         <img src="./README/public/wallet.png" alt="Wallet" width="30%"/>
     </a>
-    <a href="#">
-        <img src="./README/public/wallet.png" alt="Wallet" width="30%"/>
+    <a href="https://github.com/FacuNBustos/musci-rooftop-app">
+        <img src="./README/public/rooftop_music.png" alt="Rooftop music browser" width="30%"/>
     </a>
 </p>
 
