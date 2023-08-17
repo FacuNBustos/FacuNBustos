@@ -1,4 +1,3 @@
-import React from "react";
 import background from "../../public/assets/background2.png";
 import person from "../../public/assets/person2.png";
 import rockOne from "../../public/assets/rock_one2.png";
