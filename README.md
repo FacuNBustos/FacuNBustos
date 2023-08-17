@@ -21,14 +21,14 @@
 ## 🚀 Latest Projects
 
 <p align="center">
-    <a width="30%" href="#">
-        <img src="./README/public/copyshop.png"" alt="Wallet"/>
+    <a href="#">
+        <img src="./README/public/copyshop.png"" alt="Wallet" width="30%"/>
     </a>
-    <a width="30%" href="https://github.com/FacuNBustos/Exchange-TrabajoFinal-lab3" target="__black">
-        <img src="./README/public/wallet.png" alt="Wallet"/>
+    <a href="https://github.com/FacuNBustos/Exchange-TrabajoFinal-lab3" target="__blank">
+        <img src="./README/public/wallet.png" alt="Wallet" width="30%"/>
     </a>
-    <a width="30%" href="#">
-        <img src="./README/public/wallet.png" alt="Wallet"/>
+    <a href="#">
+        <img src="./README/public/wallet.png" alt="Wallet" width="30%"/>
     </a>
 </p>
 
