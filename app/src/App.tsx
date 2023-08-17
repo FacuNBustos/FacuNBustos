@@ -1,30 +1,27 @@
 import Welcome from "./components/Welcome";
-import estadisticas from "../public/assets/estadisticas.png";
-import wallet from "../public/assets/wallet.png";
-import copyshop from "../public/assets/copyshop.png";
+import estadisticas from "../public/assets/estadisticas.webp";
+import { useState } from "react";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  window.onload = () => {
+    setLoading(true);
+  };
 
   return (
-    <div className="w-screen h-screen bg-[#EEEEE]">
-      <div className="flex justify-center w-full pt-[20px]">
-        <Welcome />
+    <div className="flex flex-col w-screen h-screen bg-[#EEEEE]">
+      <div className="flex justify-center w-full">
+        {
+          (loading)
+          ? <Welcome />
+          : <div className="w-full h-[50vw]"/>
+        }
       </div>
       <div className="flex justify-center w-full">
-        <img src={estadisticas}  className="w-[50%]"/>
-      </div>
-      <div className="flex justify-center w-full py-[20px]">
-        <hr className="w-[70%]"/>
-      </div>
-      <div className="flex flex-col items-center w-full pb-[100px]">
-        <h4 className="w-[70%] text-[22px] font-semibold">🚀 Latest Projects</h4>
-        <div className="flex justify-center w-[70%] gap-[10px]">
-          <img src={copyshop} alt="copyshop" className="w-[30%] rounded" />
-          <img src={wallet} alt="wallet" className="w-[30%] rounded"/>
-        </div>
+        <img src={estadisticas} alt="estadisticas" className="w-[45vw]"/>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
