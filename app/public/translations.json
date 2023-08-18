@@ -1,40 +1,58 @@
 {
-    "es": {
-        "navbar": {
-            "home": "Inicio",
-            "about": "Acerca de mi",
-            "projects": "Proyectos",
-            "contact": "Contacto",
-            "language": "Idioma"
-        },
-        "about": {
-            "subtitle": "Desarrollador de Software",
-            "description": "Especializado en el desarrollo de soluciones backend. Tengo 23 años y estoy recibido de Técnico Superior en Programación en la Universidad Tecnológica Nacional - Reg. San Francisco."
-        },
-        "projects": {
-            "title": "Ultimos Proyectos"
-        }
+  "es": {
+    "navbar": {
+      "home": "Inicio",
+      "about": "Acerca de mi",
+      "projects": "Proyectos",
+      "contact": "Contacto",
+      "language": "Idioma"
     },
-    "en": {
-        "navbar": {
-            "home": "Home",
-            "about": "About me",
-            "projects": "Projects",
-            "contact": "Contact",
-            "language": "Language"
-        },
-        "about": {
-            "subtitle": "Software Developer",
-            "description": "Specialized in the development of backend solutions. I am 23 years old and I have received a Higher Technician in Programming from the National Technological University - San Francisco Regional."
-        },
-        "projects": {
-            "title": "Latest Projects",
-            "projects": {
-                "copyshop": {
-                    "title": "",
-                    "company": ""
-                }
-            }
+    "about": {
+      "subtitle": "Desarrollador de Software",
+      "description": "Especializado en el desarrollo de soluciones backend. Tengo 23 años y estoy recibido de Técnico Superior en Programación en la Universidad Tecnológica Nacional - Reg. San Francisco."
+    },
+    "projects": {
+      "title": "Ultimos Proyectos",
+      "projects": {
+        "copyshop": {
+          "title": "Sistema de gestión de pedidos de fotocopiadoras",
+          "subtitle": "WASD Copyshop | Nov. 2022 - Actualmente",
+          "description": [
+            "Discovery de las necesidades del cliente.",
+            "Diseño de solución.",
+            "Desarrollo frontend-backend de soluciones.",
+            "Despliegue y mantenimiento de la plataforma."
+          ]
         }
+      }
     }
+  },
+  "en": {
+    "navbar": {
+      "home": "Home",
+      "about": "About me",
+      "projects": "Projects",
+      "contact": "Contact",
+      "language": "Language"
+    },
+    "about": {
+      "subtitle": "Software Developer",
+      "description": "Specialized in the development of backend solutions. I am 23 years old and I have received a Higher Technician in Programming from the National Technological University - San Francisco Regional."
+    },
+    "projects": {
+      "title": "Latest Projects",
+      "projects": {
+        "copyshop": {
+          "title": "Photocopier order management system",
+          "subtitle": "WASD Copyshop | Nov. 2022 - Present",
+          "description": [
+            "Discovery of customer needs.",
+            "Solution design.",
+            "Frontend-backend development of solutions.",
+            "Deployment and maintenance of the platform."
+          ]
+        }
+      }
+    }
+  }
 }
