@@ -1,0 +1,40 @@
+{
+    "es": {
+        "navbar": {
+            "home": "Inicio",
+            "about": "Acerca de mi",
+            "projects": "Proyectos",
+            "contact": "Contacto",
+            "language": "Idioma"
+        },
+        "about": {
+            "subtitle": "Desarrollador de Software",
+            "description": "Especializado en el desarrollo de soluciones backend. Tengo 23 años y estoy recibido de Técnico Superior en Programación en la Universidad Tecnológica Nacional - Reg. San Francisco."
+        },
+        "projects": {
+            "title": "Ultimos Proyectos"
+        }
+    },
+    "en": {
+        "navbar": {
+            "home": "Home",
+            "about": "About me",
+            "projects": "Projects",
+            "contact": "Contact",
+            "language": "Language"
+        },
+        "about": {
+            "subtitle": "Software Developer",
+            "description": "Specialized in the development of backend solutions. I am 23 years old and I have received a Higher Technician in Programming from the National Technological University - San Francisco Regional."
+        },
+        "projects": {
+            "title": "Latest Projects",
+            "projects": {
+                "copyshop": {
+                    "title": "",
+                    "company": ""
+                }
+            }
+        }
+    }
+}
