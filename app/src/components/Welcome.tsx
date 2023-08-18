@@ -1,52 +1,97 @@
-import background from "../../public/assets/background.webp";
-import person from "../../public/assets/person.webp";
-import rockOne from "../../public/assets/rock_one.webp";
-import rockTwo from "../../public/assets/rock_two.webp";
-import rockThree from "../../public/assets/rock_three.webp";
+// Browser
+import base_browser from "../../public/assets/browser/base_browser.webp";
+import person_browser from "../../public/assets/browser/person_browser.webp";
+import rockOne_browser from "../../public/assets/browser/rock_one_browser.webp";
+import rockTwo_browser from "../../public/assets/browser/rock_two_browser.webp";
+import rockThree_browser from "../../public/assets/browser/rock_three_browser.webp";
+
+// Mobile
+import base_mobile from "../../public/assets/mobile/base_mobile.webp";
+import person_mobile from "../../public/assets/mobile/person_mobile.webp";
+import rockOne_mobile from "../../public/assets/mobile/rock_one_mobile.webp";
+import rockTwo_mobile from "../../public/assets/mobile/rock_two_mobile.webp";
+import rockThree_mobile from "../../public/assets/mobile/rock_three_mobile.webp";
+
+import { useEffect, useState } from "react";
 
 const Welcome = () => {
+  const [images, setImages] = useState({
+    base: "",
+    person: "",
+    rock_one: "",
+    rock_two: "",
+    rock_three: "",
+  });
+
+  useEffect(() => {
+    if (window.screen.width > 768) {
+      setImages({
+        base: base_browser,
+        person: person_browser,
+        rock_one: rockOne_browser,
+        rock_two: rockTwo_browser,
+        rock_three: rockThree_browser,
+      });
+    } else {
+      setImages({
+        base: base_mobile,
+        person: person_mobile,
+        rock_one: rockOne_mobile,
+        rock_two: rockTwo_mobile,
+        rock_three: rockThree_mobile,
+      });
+    }
+  }, [location.reload]);
+
   return (
-    <div className="flex flex-col justify-start items-center w-[75vw] relative">
+    <div
+      id="welcome"
+      className="flex flex-col justify-start items-center w-[90vw] h-[30vh] relative
+    md:w-[80vw] md:h-[85vh]"
+    >
       <img
-        src={background}
+        src={images.base}
         className="absolute
-          animate-fade-up animate-delay-[500ms]"
+          animate-fade-up animate-delay-[500ms] w-[99%]"
       />
       <img
-        src={person}
+        src={images.person}
         className="absolute z-10
-          animate-fade-right animate-delay-[300ms]"
+          animate-fade-right animate-delay-[300ms] w-[99%]"
       />
       <img
-        src={rockOne}
+        src={images.rock_one}
         className="absolute z-20
-          animate-fade-right animate-delay-[300ms]"
+          animate-fade-right animate-delay-[300ms] w-[99%]"
       />
       <img
-        src={rockTwo}
+        src={images.rock_two}
         className="absolute z-30
-          animate-fade-left animate-delay-[100ms]"
+          animate-fade-left animate-delay-[100ms] w-[99%]"
       />
       <img
-        src={rockThree}
+        src={images.rock_three}
         className="absolute z-40
-          animate-fade-left animate-delay-[300ms]"
+          animate-fade-left animate-delay-[300ms] w-[99%]"
       />
       <h2
-        className="z- rotate-[-6deg] text-[2.2vw] pt-[16%] pl-[3%] font-bungee
+        className="rotate-[-6deg] text-[2.5vw] pt-[16%] pl-[3%] font-bungee
+          md:text-[2.2vw]
           animate-fade animate-delay-[100ms]"
       >
         FACUNDO BUSTOS
       </h2>
       <p
-        className="z-51 rotate-[-6deg] pl-[5%] text-[1.5vw] font-semibold
+        className="rotate-[-6deg] pl-[5%] text-[2vw] font-semibold
+          md:text-[1.6vw]
           animate-fade animate-delay-[100ms]"
       >
         Software Developer
       </p>
 
       <div
-        className="flex justify-center w-full h-[4%] z-50 rotate-[-6deg] gap-[2%] pl-[7%] pt-[0.5%]
+        className="flex justify-center w-full h-[4%] z-50 rotate-[-6deg] gap-[2%] pl-[7%] mt-[2px]
+        md:h-[3.5%] md:mt-[10px]
           animate-fade animate-delay-[100ms]"
       >
         <a

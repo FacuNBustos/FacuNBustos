@@ -14,8 +14,8 @@
 <br>
 <hr/>
     
-<p align="center" width="100vw">
-    <img width="800px" src="./README/public/estadisticas.png" />
+<p align="center" width="100%">
+    <img width="500px" src="./README/public/estadisticas.png" />
 </p>
 
 ## 🚀 Latest Projects
