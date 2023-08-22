@@ -46,8 +46,8 @@ const Welcome = () => {
   return (
     <div
       id="welcome"
-      className="flex flex-col justify-start items-center w-[90vw] h-[30vh] relative
-    md:w-[80vw] md:h-[85vh]"
+      className="flex flex-col justify-start items-center pt-[10px] w-[85%] h-[30vh] relative
+    md:w-[80vw] md:h-[85vh] pt-0"
     >
       <img
         src={images.base}

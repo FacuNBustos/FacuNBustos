@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import copyshop_browser from "../../public/assets/browser/copyshop_browser.webp";
 import copyshop_mobile from "../../public/assets/browser/copyshop_browser.webp";
+import wallet_browser from "../../public/assets/browser/wallet_browser.png";
 
 const Projects = ({ text }: any) => {
   const [images, setImages] = useState({
@@ -36,7 +37,7 @@ const Projects = ({ text }: any) => {
         </h3>
 
         <div
-          className="flex w-full h-[20vh] 
+          className="flex w-full h-[16vh] 
         md:h-[50vh]"
         >
           <div className="flex justify-start items-center h-full w-[40%]">
@@ -70,14 +71,38 @@ const Projects = ({ text }: any) => {
         </div>
 
         <div
-          className="w-full h-[20vh] bg-green-200
+          className="flex justify-end w-full h-[16vh]
          md:h-[40vh]"
-        ></div>
-
-        <div
-          className="w-full h-[20vh] bg-blue-200
-        md:h-[40vh]"
-        ></div>
+        >
+          <div className="flex flex-col justify-center items-start h-full w-[50%]">
+            <p
+              className="font-bold text-[10px] text-start
+            md:text-[25px]"
+            >
+              {text.projects.wallet.title}
+            </p>
+            <p
+              className="text-[6px]
+            md:text-[14px]"
+            >
+              {text.projects.wallet.subtitle}
+            </p>
+            <div className="[&>p]:text-[8px] text-start md:[&>p]:text-[18px] md:pt-[8px]">
+              {text.projects.wallet.description?.map(
+                (elem: any, key: any) => {
+                  return <p key={key}>• {elem}</p>;
+                }
+              )}
+            </div>
+          </div>
+          <div className="flex justify-center items-center h-full w-[50%]">
+            <img
+              src={wallet_browser}
+              alt="wallet frame"
+              className="animate-fade"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

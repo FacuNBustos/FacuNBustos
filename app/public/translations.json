@@ -23,6 +23,16 @@
             "Desarrollo frontend-backend de soluciones.",
             "Despliegue y mantenimiento de la plataforma."
           ]
+        },
+        "wallet": {
+          "title": "Simulador de Exchange / Wallet",
+          "subtitle": "Trabajo Final UTN | Julio 2022",
+          "description": [
+            "Diseño de solución.",
+            "Desarrollo frontend de la solución.",
+            "Compra, venta y seguimiento de criptodivisas.",
+            "Backoffice de gestión de plataforma."
+          ]
         }
       }
     }
@@ -50,6 +60,16 @@
             "Solution design.",
             "Frontend-backend development of solutions.",
             "Deployment and maintenance of the platform."
+          ]
+        },
+        "wallet": {
+          "title": "Exchange / Wallet Simulator",
+          "subtitle": "Final work UTN | July 2022",
+          "description": [
+            "Solution design.",
+            "Frontend development of solutions.",
+            "Buy, sell and track cryptocurrency",
+            "Platform management back office"
           ]
         }
       }
