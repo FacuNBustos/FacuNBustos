@@ -37,9 +37,10 @@ const Projects = ({ text }: any) => {
         </h3>
 
         <div
-          className="flex w-full h-[16vh] 
+          className="flex w-full h-[16vh] relative
         md:h-[50vh]"
         >
+          <div className="invisible md:visible absolute w-[110%] h-[100%] bg-[#FEFEFE] left-[-5%] rounded border-2 border-[#EEEEEE] z-[-10] pb-[10px] shadow-sm"/>
           <div className="flex justify-start items-center h-full w-[40%]">
             <img
               src={images.copyshop}
@@ -71,9 +72,10 @@ const Projects = ({ text }: any) => {
         </div>
 
         <div
-          className="flex justify-end w-full h-[16vh]
+          className="flex justify-end w-full h-[16vh] relative
          md:h-[40vh]"
         >
+          <div className="invisible md:visible absolute w-[110%] h-[100%] bg-[#FEFEFE] left-[-5%] rounded border-2 border-[#EEEEEE] z-[-10] mt-[5px] shadow-sm"/>
           <div className="flex flex-col justify-center items-start h-full w-[50%]">
             <p
               className="font-bold text-[10px] text-start
