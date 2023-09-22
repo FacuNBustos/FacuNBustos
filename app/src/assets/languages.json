@@ -1,0 +1,43 @@
+{
+  "es": {
+    "modes": {
+      "default": "Día",
+      "dark": "Noche"
+    },
+    "configCard": {
+      "langLabel": "Idioma",
+      "modeLabel": "Modo"
+    },
+    "banner": {
+      "subtitle": "Desarrollador de Software"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "buttoms": {
+            "contact": "Contáctame",
+            "linkedin": "Mi perfil de LinkedIn"
+        }
+    }
+  },
+
+  "en": {
+    "modes": {
+      "default": "Day",
+      "dark": "Night"
+    },
+    "configCard": {
+      "langLabel": "Language",
+      "modeLabel": "Mode"
+    },
+    "banner": {
+        "subtitle": "Software Developer"
+    },
+    "about": {
+        "title": "About me",
+        "buttoms": {
+            "contact": "Contact me",
+            "linkedin": "My LinkedIn profile" 
+        }
+    }
+  }
+}

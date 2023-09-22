@@ -9,4 +9,5 @@ export default {
     },
   },
   plugins: [require("tailwindcss-animated")],
+  darkMode: ["class", "[data-theme=dark]"],
 };
